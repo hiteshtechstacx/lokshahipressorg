@@ -112,7 +112,7 @@ export function Header({
   currentPath: string;
   onNavigate: (path: string) => void;
 }) {
-  const { t } = useLanguage();
+  const { lang, t } = useLanguage();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavClick = (href: string) => {
