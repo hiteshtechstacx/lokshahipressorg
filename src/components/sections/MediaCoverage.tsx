@@ -7,6 +7,29 @@ export function MediaCoverage() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [isPaused, setIsPaused] = useState(false);
 
+  const clippingImages = [
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0.2-hVgu4X76jUFd201E7zBdPqVsJ25wXk.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0.1-2K7d7ZZsvVEpxt8dR31lwwWb0V0Eug.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0.3-Jogr8dMKM2wfZXApSKjtt2Ipa9uoaN.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0.5-OUqHyNmEhLpRUmGhKrH0FF316P0OK0.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0.4-p2octuouPCofN5F725O3prDLDVi6Zt.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-mT1pxCXptDN376cM2UW1Am7iLDqBTy.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-QM8N3fPa7QO1bekWuaJu2oK6qLShaG.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-y2zjj0342VG2lPjlmvVnprUxhVw03x.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-PEVnjTYYU47WWWuL0bOduge9VNUQla.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5-37hlqIypEhwBIubazFmmapiYxW91tv.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6.5-dqwmXhrxoBgcpbWPGRZuyvaNSMQR4O.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6-eOLlAh7z7rKBmKUkhLPd8r5QGWvwTk.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7-TFN1jgNET9aCevU8tjKXrW6OHdtEn2.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/8-y7baYHYusgjS5TUmASjU5Koxamx0r1.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9-9LpzGdRKkxmJCAOKSxx87y4ZlTABe9.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9-J4SMTvYoqpCWn9nP5HL9Q5xbJY9uR5.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/11-oa5FcsJpjvjUDsy9odjMd0yswAUjLh.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/12-C18BYdEq4mTeqqNe80PWJn5o3RNR9X.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/13-5vuPKrWBcJmXm9ooUkUyhznlRwD91P.jpg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/15-oOwBnLslD8anbr1yvoSoUaVfh4MM0E.jpeg',
+  ];
+
   // Duplicated list for seamless infinite looping autoscroll
   const scrollArticles = [...realPressClippings, ...realPressClippings];
 
@@ -88,10 +111,21 @@ export function MediaCoverage() {
                 </span>
               </div>
 
-              {/* 2. Empty Layout Box in middle */}
-              <div className="my-3 flex-1 min-h-[140px] rounded-xl border border-dashed border-[#172A4A]/25 bg-[#F7F3EC]/50" />
+              {/* Press clipping image */}
+              <div className="my-3 flex-1 min-h-[140px] overflow-hidden rounded-xl border border-[#172A4A]/15 bg-[#F7F3EC]">
+                <img
+                  src={clippingImages[article.id - 1] ?? clippingImages[0]}
+                  alt={lang === 'mr' ? `${article.source} मधील बातमी` : `Press coverage from ${article.source}`}
+                  className="h-full w-full object-cover object-top"
+                  loading={idx < realPressClippings.length ? 'eager' : 'lazy'}
+                />
+              </div>
 
-              {/* 3. Disabled button for now - clicking does not open anything */}
+              <h3 className="line-clamp-2 text-sm font-black leading-snug text-[#172A4A]">
+                {lang === 'mr' ? article.headlineMr : article.headlineEn}
+              </h3>
+
+              {/* Coverage label */}
               <div
                 className="pt-3 border-t border-[#172A4A]/10 w-full flex items-center justify-between text-xs font-black text-[#E30620] cursor-default select-none pointer-events-none"
                 aria-disabled="true"
