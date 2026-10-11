@@ -83,7 +83,7 @@ export function Hero({
   }, [currentSlide, backgroundSlides.length]);
 
   return (
-    <section className="relative w-full flex items-center justify-start overflow-hidden border-b-4 border-[#E30620] min-h-[420px] sm:min-h-[460px] md:min-h-[500px] lg:min-h-[540px] bg-[#0B1E36]">
+    <section className="relative w-full aspect-[16/9] min-h-[210px] max-h-[240px] sm:aspect-auto sm:min-h-[460px] sm:max-h-none md:min-h-[500px] lg:min-h-[540px] flex items-center justify-start overflow-hidden border-b-4 border-[#E30620] bg-[#0B1E36]">
       {/* Background Image Slides with Smooth Crossfade */}
       <div className="absolute inset-0 w-full h-full overflow-hidden select-none pointer-events-none z-0">
         {backgroundSlides.map((slide, idx) => {
@@ -104,7 +104,7 @@ export function Hero({
                     e.currentTarget.src = fallback;
                   }
                 }}
-                className="w-full h-full object-cover object-[center_30%] scale-105 transition-transform duration-[3000ms] ease-out"
+                className="w-full h-full object-cover object-center sm:object-[center_30%] scale-105 transition-transform duration-[3000ms] ease-out"
               />
             </div>
           );
@@ -116,10 +116,10 @@ export function Hero({
       </div>
 
       {/* Hero Foreground Content */}
-      <div className="relative z-10 w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 flex flex-col items-start text-left mr-auto">
+      <div className="relative z-10 w-full max-w-6xl px-3 sm:px-6 lg:px-8 py-4 sm:py-16 md:py-20 flex flex-col items-start text-left mr-auto">
         <div className="flex flex-col items-start text-left max-w-4xl lg:max-w-5xl">
           {/* Top Eyebrow Header */}
-          <div className="flex flex-wrap items-center justify-start gap-2 sm:gap-3 mb-3 sm:mb-4">
+          <div className="flex flex-wrap items-center justify-start gap-1 sm:gap-3 mb-1 sm:mb-4">
             <span className="text-sm sm:text-base md:text-lg font-black uppercase tracking-wide text-white drop-shadow-md">
               {lang === 'mr' ? 'लोकशाही पत्रकार महासंघ भारत' : 'LOKSHAHI PATRAKAR MAHASANGH BHARAT'}
             </span>
@@ -130,7 +130,7 @@ export function Hero({
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight sm:leading-tight text-white tracking-tight drop-shadow-2xl text-left">
+          <h1 className="text-xl leading-tight sm:text-5xl sm:leading-tight md:text-6xl lg:text-7xl font-black text-white tracking-tight drop-shadow-2xl text-left">
             {lang === 'mr' ? (
               <>
                 <span className="text-[#E30620]">सत्यासाठी</span> लढणार, <span className="text-white">अन्यायाला</span> भिडणार!
@@ -143,11 +143,11 @@ export function Hero({
           </h1>
 
           {/* Strength Badges */}
-          <div className="mt-5 sm:mt-6 flex flex-wrap items-center justify-start gap-2 sm:gap-3 max-w-2xl">
+          <div className="mt-2 sm:mt-6 flex flex-wrap items-center justify-start gap-1 sm:gap-3 max-w-2xl">
             {heroBadges.map((badge, idx) => (
               <span
                 key={idx}
-                className={`rounded-xl border px-3 sm:px-3.5 py-1 sm:py-1.5 text-[11px] sm:text-sm font-bold shadow-sm backdrop-blur-md transition-transform hover:scale-105 ${badge.color}`}
+                className={`rounded-xl border px-2 sm:px-3.5 py-0.5 sm:py-1.5 text-[9px] sm:text-sm font-bold shadow-sm backdrop-blur-md transition-transform hover:scale-105 ${badge.color}`}
               >
                 {badge[lang]}
               </span>
@@ -274,7 +274,7 @@ export function HeroIntroSection({
                 <span className="text-lg">🏛️</span>
                 <span>
                   {lang === 'mr'
-                    ? 'लोकशाही परिवार — पत्रकारांचे एक राष्ट्रीय कुटुंब'
+                    ? 'लोकशाही परिवार — पत्रकारांच�� एक राष्ट्रीय कुटुंब'
                     : 'Lokshahi Pariwar — A National Family of Journalists'}
                 </span>
               </h4>
