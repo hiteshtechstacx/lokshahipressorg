@@ -14,6 +14,7 @@ export interface BackgroundSlide {
   imageSrc: string;
   titleMr: string;
   titleEn: string;
+  durationMs: number;
 }
 
 export function Hero({
@@ -33,41 +34,82 @@ export function Hero({
       imageSrc: '/hero-slide-1.jpg',
       titleMr: 'शासकीय व प्रशासकीय संवाद — महासंघ शिष्टमंडळ भेट',
       titleEn: 'Government Liaison & Administrative Delegation Meeting',
+      durationMs: 5000,
     },
     {
       id: 2,
       imageSrc: '/hero-slide-2.jpg',
       titleMr: 'लोकशाही पत्रकार संघ बैठक व पत्रकार प्रशिक्षण मेळावा',
       titleEn: 'Lokshahi Press Federation Meeting & Journalist Training Seminar',
+      durationMs: 5000,
     },
     {
       id: 3,
       imageSrc: '/hero-slide-3.jpg',
       titleMr: 'संघटनात्मक सत्कार व ज्येष्ठ सामाजिक मार्गदर्शन',
       titleEn: 'Federation Leadership Guidance & Felicitation',
+      durationMs: 5000,
     },
     {
       id: 4,
       imageSrc: '/hero-slide-4.jpg',
       titleMr: 'दैनिक लोकनेता द्वितीय वर्धापन दिन — वृत्तपत्र प्रकाशन',
       titleEn: 'Dainik Lokneta 2nd Anniversary Publication',
+      durationMs: 5000,
     },
     {
       id: 5,
       imageSrc: '/hero-slide-5.jpg',
       titleMr: 'दैनिक लोकनेता वृत्तपत्र प्रकाशन व वर्धापन दिन सोहळा',
       titleEn: 'Dainik Lokneta Newspaper Publication & Anniversary Ceremony',
+      durationMs: 5000,
+    },
+    {
+      id: 6,
+      imageSrc: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZyFveTX0izQX1vVdtTV2j9Hr1LSkf3.png',
+      titleMr: 'लोकशाही पत्रकार महासंघ बैठक व पत्रकार प्रशिक्षण मेळावा',
+      titleEn: 'Press Federation Meeting and Journalist Training Seminar',
+      durationMs: 2000,
+    },
+    {
+      id: 7,
+      imageSrc: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NPaPIGpkmpzfHfjquZmJDNy2xVyoEA.png',
+      titleMr: 'शिवस्मारक सोलापूर येथील पत्रकार व मान्यवरांचा कार्यक्रम',
+      titleEn: 'Journalists and Dignitaries at ShivSmarak Solapur',
+      durationMs: 2000,
+    },
+    {
+      id: 8,
+      imageSrc: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-57ZnFUnCzZXAljLU1jgwfdl8G0YfQK.png',
+      titleMr: 'वृत्तपत्र व पत्रकारांचा विशेष कार्यक्रम',
+      titleEn: 'Special Newspaper and Journalist Event',
+      durationMs: 2000,
+    },
+    {
+      id: 9,
+      imageSrc: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-uGiASrsN5C6sr7gQ8coskqIi7UBvAw.png',
+      titleMr: 'ज्येष्ठ मान्यवरांची सदिच्छा भेट',
+      titleEn: 'Courtesy Meeting with Senior Dignitaries',
+      durationMs: 2000,
+    },
+    {
+      id: 10,
+      imageSrc: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-92H0pAshBqurUFJIkPT3pUk4oUMhKe.png',
+      titleMr: 'दैनिक लोकनेता वर्धापन दिन सोहळा',
+      titleEn: 'Dainik Lokneta Anniversary Celebration',
+      durationMs: 2000,
+    },
+    {
+      id: 11,
+      imageSrc: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-deIesYcbJyAzcCmzvJem8F9RxpPs0E.png',
+      titleMr: 'प्रशासकीय अधिकाऱ्यांची सदिच्छा भेट',
+      titleEn: 'Courtesy Meeting with Administrative Officials',
+      durationMs: 2000,
     },
   ];
 
-  // Auto-scroll timing:
-  // Slide 1 (idx 0) -> 2000ms
-  // Slide 2 (idx 1) -> 2000ms
-  // Slide 3 (idx 2) -> 5000ms (5 seconds as requested)
-  // Slide 4 (idx 3) -> 2000ms
-  // Slide 5 (idx 4) -> 2000ms
   useEffect(() => {
-    const duration = currentSlide === 2 ? 5000 : 2000;
+    const duration = backgroundSlides[currentSlide].durationMs;
     const timer = setTimeout(() => {
       setCurrentSlide((prev) => (prev + 1) % backgroundSlides.length);
     }, duration);
@@ -157,7 +199,7 @@ export function Hero({
             type="button"
             onClick={() => setCurrentSlide(idx)}
             aria-label={`Slide ${idx + 1}`}
-            title={`Slide ${idx + 1} (${idx === 2 ? '5s' : '2s'})`}
+            title={`Slide ${idx + 1} (${slide.durationMs / 1000}s)`}
             className={`h-2.5 rounded-full transition-all cursor-pointer ${
               idx === currentSlide
                 ? 'w-6 sm:w-7 bg-[#E30620]'
@@ -274,7 +316,7 @@ export function HeroIntroSection({
               <p className="text-xs sm:text-sm text-[#172A4A]/85 leading-relaxed font-medium">
                 {lang === 'mr' ? (
                   <>
-                    <span className="text-[#E30620] font-black">लोक</span>शाही पत्रकार महासंघ भारत ही केवळ पत्रकारांची संघटना नसून पत्रकार, समाजसेवक आणि लोकशाही मूल्यांवर विश्वास ठेवणाऱ्या नागरिकांचे एक संयुक्त राष्ट्रीय कुटुंब आहे. समाजहित, पत्रकारांचे संरक्षण आणि समाजसेवकांच्या कल्याणाचा विचार करून महासंघ विविध सामाजिक, शैक्षणिक आणि जनहिताचे उपक्रम सातत्याने राबवितो.
+                    <span className="text-[#E30620] font-black">लोक</span>शाही पत्रकार महासंघ भारत ही केवळ पत्रकारांची संघट��ा नसून पत्रकार, समाजसेवक आणि लोकशाही मूल्यांवर विश्वास ठेवणाऱ्या नागरिकांचे एक संयुक्त राष्ट्रीय कुटुंब आहे. समाजहित, पत्रकारांचे संरक्षण आणि समाजसेवकांच्या कल्याणाचा विचार करून महासंघ विविध सामाजिक, शैक्षणिक आणि जनहिताचे उपक्रम सातत्याने राबवितो.
                   </>
                 ) : (
                   <>
