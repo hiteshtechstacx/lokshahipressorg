@@ -29,11 +29,19 @@ export function LeadershipSection() {
               <div>
                 {/* Photo frame */}
                 <div className="mb-4">
-                  <WFImage
-                    label="Photo"
-                    ratio="aspect-[4/3]"
-                    className="w-full rounded-xl"
-                  />
+                  {'photoUrl' in member && member.photoUrl ? (
+                    <img
+                      src={member.photoUrl}
+                      alt={lang === 'mr' ? member.nameMr : member.nameEn}
+                      className="aspect-[4/3] w-full rounded-xl border-2 border-[#172A4A]/25 object-cover shadow-xs"
+                    />
+                  ) : (
+                    <WFImage
+                      label="Photo"
+                      ratio="aspect-[4/3]"
+                      className="w-full rounded-xl"
+                    />
+                  )}
                 </div>
 
                 <div className="space-y-1.5">
@@ -53,7 +61,7 @@ export function LeadershipSection() {
                   <span className="text-[10px] font-bold uppercase tracking-widest text-neutral-400 block mb-1">
                     Short Profile
                   </span>
-                  <p className="text-xs text-neutral-600 font-medium">
+                  <p className="whitespace-pre-line text-xs text-neutral-600 font-medium">
                     {lang === 'mr' ? member.profileMr : member.profileEn}
                   </p>
                 </div>

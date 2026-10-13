@@ -94,22 +94,24 @@ export const leadershipMembers = [
   {
     roleMr: "राष्ट्रीय अध्यक्ष",
     roleEn: "National President",
-    nameMr: "नाव",
-    nameEn: "Name",
+    nameMr: "श्री. संदिप जाधव",
+    nameEn: "Mr. Sandip Jadhav",
     stateMr: "महाराष्ट्र / भारत",
     stateEn: "Maharashtra / India",
-    profileMr: "राष्ट्रीय धोरण व सर्वोच्च नेतृत्व",
-    profileEn: "National Policy & Apex Leadership"
+    profileMr: "पत्रकार | प्रभावी वक्ते | निवडणूक रणनीतिकार | राजकीय विश्लेषक | संस्थापक, Hashtag Media Network\n\nपत्रकार संदिप जाधव हे महाराष्ट्रातील तसेच राष्ट्रीय स्तरावर कार्यरत असलेले पत्रकार, प्रभावी वक्ते आणि निवडणूक रणनीतिकार आहेत. गेल्या ८ वर्षांहून अधिक काळ त्यांनी राज्य आणि देशपातळीवरील नामांकित माध्यम समूहांमध्ये काम केले आहे. पत्रकारिता, राजकीय संवाद, निवडणूक व्यवस्थापन आणि सामाजिक प्रश्नांवरील अभ्यासपूर्ण कार्यातून त्यांनी स्वतःची एक वेगळी ओळख निर्माण केली आहे. आज ते Hashtag Media Network या मीडिया आणि कम्युनिकेशन कंपनीचे संस्थापक तथा व्यवस्थापकीय संचालक आहेत.\n\nग्राउंड रिपोर्टिंग, शोध पत्रकारिता, राजकीय विश्लेषण आणि जनहिताशी संबंधित विषयांवरील प्रभावी मांडणी ही त्यांची प्रमुख ताकद आहे. सत्याधारित पत्रकारिता, निष्पक्ष दृष्टिकोन आणि लोकशाही मूल्यांप्रती असलेली बांधिलकी त्यांच्या कार्याचा केंद्रबिंदू आहे. पत्रकारितेबरोबरच त्यांनी दिल्ली, पश्चिम बंगाल, महाराष्ट्र, बिहार, गोवा तसेच इतर राज्यांमधील निवडणूक मोहिमांमध्ये राजकीय रणनीती आणि कॅम्पेन मॅनेजमेंटचे काम केले आहे.",
+    profileEn: "Journalist | Public Speaker | Election Strategist | Political Analyst | Founder, Hashtag Media Network\n\nMr. Sandip Jadhav is a journalist, public speaker and election strategist working across Maharashtra and India. With more than eight years of experience in leading state and national media groups, he has built a distinct identity through journalism, political communication, election management and research on social issues. He is the Founder and Managing Director of Hashtag Media Network, a media and communications company.\n\nGround reporting, investigative journalism, political analysis and clear communication on public-interest issues are his core strengths. Evidence-based journalism, an impartial perspective and a commitment to democratic values remain central to his work. He has also contributed political strategy and campaign management to election campaigns in Delhi, West Bengal, Maharashtra, Bihar, Goa and other states.",
+    photoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-eTffRLiTtB1ezzHz8CzGcjh3k3TrYv.png"
   },
   {
-    roleMr: "राष्ट्रीय कार्य अध्यक्ष",
-    roleEn: "National Working President",
-    nameMr: "नाव",
-    nameEn: "Name",
+    roleMr: "राष्ट्रीय उपाध्यक्ष",
+    roleEn: "National Vice President",
+    nameMr: "डॉ. संतोषकुमार आर. जयस्वाल",
+    nameEn: "Dr. Santoshkumar R. Jaiswal",
     stateMr: "महाराष्ट्र / भारत",
     stateEn: "Maharashtra / India",
-    profileMr: "राष्ट्रीय संघटनात्मक नियोजन व संचालन",
-    profileEn: "National Organisational Planning & Operations"
+    profileMr: "निवृत्त न्यायाधीश | ज्येष्ठ विधिज्ञ | कायदेविषयक सल्लागार | लवाद व मध्यस्थी तज्ज्ञ\n\nडॉ. संतोषकुमार आर. जयस्वाल हे न्यायिक, कायदेविषयक, प्रशासकीय आणि सामाजिक क्षेत्रातील प्रदीर्घ अनुभव असलेले व्यक्तिमत्त्व आहेत. निवृत्त न्यायाधीश, ज्येष्ठ विधिज्ञ, कायदेविषयक सल्लागार आणि लवाद व मध्यस्थी क्षेत्रातील तज्ज्ञ म्हणून त्यांनी विविध जबाबदाऱ्या सांभाळल्या आहेत.\n\nत्यांनी मुंबईतील एस्प्लनेड व अंधेरी न्यायालये, मुंबई व वांद्रे येथील लघुवाद न्यायालये तसेच मालेगाव-नाशिक, वाशिम, मंगरूळपीर, भंडारा आणि गोंदिया येथे न्यायिक सेवा बजावली आहे. त्यांनी बॉम्बे पोर्ट ट्रस्टचे कायदेविषयक सल्लागार म्हणूनही काम केले असून बी.एस्सी., बी.जर्नॅलिझम, डी.फार्म., एलएल.एम. आणि पीएच.डी. (कायदा) या पदव्या प्राप्त केल्या आहेत.",
+    profileEn: "Retired Judge | Senior Advocate | Legal Advisor | Arbitration & Mediation Expert\n\nDr. Santoshkumar R. Jaiswal is an experienced professional in the judicial, legal, administrative and social sectors. As a retired judge, senior advocate, legal advisor and expert in arbitration and mediation, he has held several important responsibilities.\n\nHe has served in judicial roles at the Esplanade and Andheri courts in Mumbai, Small Causes Courts in Mumbai and Bandra, and as a Civil Judge and Chief Judicial Magistrate in Maharashtra. He has also served as Legal Advisor to the Bombay Port Trust and holds B.Sc., B.Journalism, D.Pharm., LL.M. and Ph.D. (Law) qualifications.",
+    photoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bTSFUxDF7s8kEanNTiysaMtEHLHWLt.png"
   },
   {
     roleMr: "राष्ट्रीय उपाध्यक्ष",
@@ -223,7 +225,7 @@ export const futureRoadmapPhases = [
     phase: "PHASE 03",
     titleMr: "प्रशिक्षण व कौशल्य विकास",
     titleEn: "Training & Skill Development",
-    descMr: "डिजिटल पत्रकारिता, सोशल मीडिया, तथ्य पडताळणी, सायबर सुरक्षा, कायदेशीर जागरूकता आणि आधुनिक पत्रकारितेसाठी प्रशिक्षण उपक्रम व पत्रकार कार्यशाळेचे आयोजन.सोबतच Meet the Press कार्यक्रम, पत्रकार सुरक्षा व हक्क संरक्षण अभियान, माध्यम संशोधन व अभ्यास प्रकल्प,मानवाधिकार जनजागृती उपक्रम,पर्यावरण संरक्षण मोहिमा,पत्रकारिता नैतिकता विषयक मार्गदर्शन,स्मरणिका, नियतकालिके आणि डिजिटल प्रकाशन,सामाजिक सेवा आणि जनहिताचे विशेष अभियान",
+    descMr: "डिजिटल पत्रकारिता, सोशल मीडिया, तथ्य पडताळणी, सायबर सुरक्षा, कायदेशीर जागरूकता आणि आधुनिक पत्रकारितेसाठी प्रशिक्षण उपक्रम व पत्रकार कार्यशाळेचे आयोजन.सोबतच Meet the Press कार्यक्रम, पत्रकार सुरक्षा व हक्क संरक्षण अभियान, माध्यम संशोधन व अभ्यास प्रकल्प,मानवाधिकार जनजागृती उपक्रम,पर्यावरण संरक्षण मोहिमा,पत्रकारिता नैतिकता विषयक मार्गदर्शन,स्मरणिका, नियतकालिके आणि डिजिटल प्रकाशन,स��माजिक सेवा आणि जनहिताचे विशेष अभियान",
     descEn: "Training programs and journalist workshops on digital journalism, social media, fact checking, cyber security, legal awareness, Meet the Press events, and public interest initiatives."
   },
   {
