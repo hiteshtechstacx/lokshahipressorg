@@ -114,24 +114,26 @@ export const leadershipMembers = [
     photoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bTSFUxDF7s8kEanNTiysaMtEHLHWLt.png"
   },
   {
-    roleMr: "राष्ट्रीय उपाध्यक्ष",
-    roleEn: "National Vice President",
-    nameMr: "नाव",
-    nameEn: "Name",
+    roleMr: "राष्ट्रीय कार्याध्यक्ष",
+    roleEn: "National Working President",
+    nameMr: "मा. प्रतापराव साळूंखे",
+    nameEn: "Hon. Prataprao Salunkhe",
     stateMr: "महाराष्ट्र / भारत",
     stateEn: "Maharashtra / India",
-    profileMr: "राष्ट्रीय समन्वय व प्रांतीय संपर्क",
-    profileEn: "National Coordination & State Liaison"
+    profileMr: "राष्ट्रीय कार्याध्यक्ष | लोकशाही पत्रकार महासंघ भारत\n\nमा. प्रतापराव साळूंखे हे लोकशाही पत्रकार महासंघ भारताचे राष्ट्रीय कार्याध्यक्ष असून, पत्रकारिता, उद्योग आणि सामाजिक क्षेत्रातील एक प्रतिष्ठित व्यक्तिमत्त्व आहेत. ते सुपर महाराष्ट्र न्यूजचे संपादक असून, स्वतःच्या वर्तमानपत्राच्या माध्यमातूनही पत्रकारितेचे कार्य करतात.\n\nमहाराष्ट्रातील ख्यातनाम उद्योजक म्हणून ओळख असलेल्या प्रतापराव साळूंखे यांनी उद्योग क्षेत्रासोबतच सामाजिक क्षेत्रातही उल्लेखनीय योगदान दिले आहे. आपल्या लेखणीच्या माध्यमातून शोषित, वंचित आणि पीडित घटकांच्या प्रश्नांना वाचा फोडत, शासन-प्रशासन आणि सामान्य जनता यांच्यात दुवा म्हणून ते कार्य करतात. महाराष्ट्रासह संपूर्ण भारतभर विस्तारलेले त्यांचे कार्य पत्रकारितेची बांधिलकी, सामाजिक न्याय आणि जनहिताप्रती असलेली निष्ठा अधोरेखित करते.",
+    profileEn: "National Working President | Lokshahi Patrakar Mahasangh Bharat\n\nHon. Prataprao Salunkhe is the National Working President of Lokshahi Patrakar Mahasangh Bharat and a respected personality in journalism, industry and social service. He is the editor of Super Maharashtra News and also continues his journalistic work through his own newspaper.\n\nRecognised as a prominent entrepreneur from Maharashtra, Prataprao Salunkhe has made notable contributions to both industry and social work. Through his writing, he raises the concerns of marginalised and oppressed communities and serves as a bridge between the government, administration and citizens. His work across Maharashtra and India reflects his commitment to journalism, social justice and public welfare.",
+    photoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-jnCV2WdrpGaLKBq1NjyEI5IuTGnTrT.png"
   },
   {
-    roleMr: "कायदेशीर सल्लागार",
-    roleEn: "Legal Advisor",
-    nameMr: "नाव",
-    nameEn: "Name",
+    roleMr: "राष्ट्रीय कायदेशीर सल्लागार",
+    roleEn: "National Legal Advisor",
+    nameMr: "ॲड. रमकांत पाटील",
+    nameEn: "Adv. Ramakant Patil",
     stateMr: "महाराष्ट्र / भारत",
     stateEn: "Maharashtra / India",
-    profileMr: "पत्रकार हक्क, विधी मार्गदर्शन व संरक्षण",
-    profileEn: "Journalist Rights, Legal Defense & Advisory"
+    profileMr: "राष्ट्रीय कायदेशीर सल्लागार | लोकशाही पत्रकार महासंघ भारत\n\nॲड. रमकांत पाटील हे गेल्या १२ वर्षांपासून वकिली क्षेत्रात कार्यरत असलेले अनुभवी विधिज्ञ आणि कायद्याचे सखोल अभ्यासक आहेत. मुंबई उच्च न्यायालयासह सर्वोच्च न्यायालय, जिल्हा न्यायालये तसेच विविध कनिष्ठ न्यायालयांमध्ये कायदेशीर प्रकरणांवर काम करण्याचा त्यांना अनुभव आहे. फौजदारी कायदा, महसुली प्रशासन आणि विविध कायदेशीर बाबींमध्ये ते पक्षकारांना मार्गदर्शन व न्यायप्रक्रियेत मदत करतात.\n\nसर्वसामान्य नागरिकांना न्याय मिळवून देण्याची बांधिलकी जपत त्यांनी पत्रकार आणि विविध सामाजिक संघटनांसोबतही कार्य केले आहे. नवी मुंबई येथील ॲड. रमकांत पाटील यांचे कार्यक्षेत्र महाराष्ट्रापुरते मर्यादित नसून संपूर्ण भारतभर विस्तारलेले आहे. कायदेशीर ज्ञान, न्यायनिष्ठा आणि सामाजिक बांधिलकी यांच्या बळावर ते लोकशाही पत्रकार महासंघ भारताचे राष्ट्रीय कायदेशीर सल्लागार म्हणून संघटनेला कायदेशीर मार्गदर्शन देण्याची महत्त्वपूर्ण जबाबदारी सांभाळतात.",
+    profileEn: "National Legal Advisor | Lokshahi Patrakar Mahasangh Bharat\n\nAdv. Ramakant Patil is an experienced lawyer and deep student of law with twelve years of practice. He has handled legal matters before the Bombay High Court, Supreme Court, district courts and various lower courts. He guides clients and assists in legal proceedings involving criminal law, revenue administration and other legal matters.\n\nCommitted to helping ordinary citizens secure justice, he has also worked with journalists and social organisations. Based in Navi Mumbai, his practice extends across Maharashtra and India. With legal knowledge, dedication to justice and social commitment, he serves as the National Legal Advisor of Lokshahi Patrakar Mahasangh Bharat.",
+    photoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WS1iV47CHYv8mHuyUmpNqgDBZpnEFf.png"
   },
   {
     roleMr: "राष्ट्रीय महामंत्री",
@@ -170,7 +172,7 @@ export const leadershipMembers = [
     nameEn: "Name",
     stateMr: "महाराष्ट्र",
     stateEn: "Maharashtra",
-    profileMr: "विभागीय व जिल्हास्तरीय कार्य समन्वयक",
+    profileMr: "विभागीय व जिल्हास्���रीय कार्य समन्वयक",
     profileEn: "Divisional & District Operations Coordinator"
   },
   {
