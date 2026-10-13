@@ -138,12 +138,13 @@ export const leadershipMembers = [
   {
     roleMr: "राष्ट्रीय महामंत्री",
     roleEn: "National General Secretary",
-    nameMr: "नाव",
-    nameEn: "Name",
+    nameMr: "टी. माधव",
+    nameEn: "T. Madhav",
     stateMr: "महाराष्ट्र / भारत",
     stateEn: "Maharashtra / India",
-    profileMr: "केंद्रीय प्रशासकीय समन्वय व पत्रव्यवहार",
-    profileEn: "Central Administrative Affairs & Liaison"
+    profileMr: "राष्ट्रीय महामंत्री | लोकशाही पत्रकार महासंघ भारत\n\nपत्रकारिता • मंत्रालयीन अनुभव • प्रशासकीय समन्वय • जनसंपर्क\n\nटी. माधव हे पत्रकारिता, केंद्रीय मंत्रालयीन कामकाज आणि प्रशासकीय समन्वयाचा अनुभव असलेले व्यक्तिमत्त्व आहेत. कायदा व पत्रकारितेचे शिक्षण घेतल्यानंतर त्यांनी देशातील नामांकित वर्तमानपत्रांमध्ये विविध महत्त्वपूर्ण विषयांवर लिखाण केले आहे.\n\nत्यांनी दिल्ली येथे केंद्र सरकारच्या विविध विभागात व समित्यांमध्ये समन्वयक म्हणून काम केले आहे. त्यानंतर विदेशी कंपन्यांची गुंतवणूक भारतात आणण्यासाठी त्यांनी महत्त्वपूर्ण भूमिका बजावली आहे. रोजगारनिर्मितीच्या क्षेत्रातही केंद्र सरकार व स्वयंसेवी संस्थांच्या माध्यमातून त्यांनी महत्त्वपूर्ण काम केले आहे. सर्वसामान्य नागरिक आणि प्रशासकीय यंत्रणा यांच्यात समन्वय साधणे, नागरिकांच्या प्रश्नांना योग्य व्यासपीठ मिळवून देण्यासाठी प्रयत्न करणे आणि प्रशासकीय प्रक्रियांमध्ये मार्गदर्शन करणे, हे त्यांच्या कार्याचे महत्त्वाचे पैलू आहेत.",
+    profileEn: "National General Secretary | Lokshahi Patrakar Mahasangh Bharat\n\nJournalism • Ministerial Experience • Administrative Coordination • Public Relations\n\nT. Madhav is experienced in journalism, central ministerial affairs and administrative coordination. After studying law and journalism, he wrote on several important subjects for leading newspapers in India.\n\nHe has worked as a coordinator with various departments and committees of the central government in Delhi. He also played an important role in bringing foreign company investment to India and contributed significantly to employment generation through the central government and voluntary organisations. Coordinating between citizens and the administrative machinery, helping citizens find an appropriate platform for their concerns and guiding them through administrative processes are important aspects of his work.",
+    photoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qsLul7KDNU90y61ksRxN2CUrCUWhM7.png"
   },
   {
     roleMr: "राष्ट्रीय संघटनमंत्री",
@@ -162,7 +163,7 @@ export const leadershipMembers = [
     nameEn: "Name",
     stateMr: "महाराष्ट्र",
     stateEn: "Maharashtra",
-    profileMr: "राज्यस्तरीय नेतृत्व, समन्वय व धोरण",
+    profileMr: "राज्यस��तरीय नेतृत्व, समन्वय व धोरण",
     profileEn: "State Leadership, Coordination & Policy"
   },
   {
